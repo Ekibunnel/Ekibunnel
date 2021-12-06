@@ -28,19 +28,13 @@
                 <SkipMachineOOBE>true</SkipMachineOOBE>
                 <SkipUserOOBE>true</SkipUserOOBE>
                 <ProtectYourPC>3</ProtectYourPC>
-                <HideLocalAccountScreen>true</HideLocalAccountScreen>
+                <HideLocalAccountScreen>false</HideLocalAccountScreen>
             </OOBE>
             <UserAccounts>
                 <AdministratorPassword>
                     <Value>cABhAHMAcwB3AG8AcgBkAEEAZABtAGkAbgBpAHMAdAByAGEAdABvAHIAUABhAHMAcwB3AG8AcgBkAA==</Value>
                     <PlainText>false</PlainText>
                 </AdministratorPassword>
-                <LocalAccounts>
-                    <LocalAccount wcm:action="add">
-                        <Group>Administrators</Group>
-                        <Name>User</Name>
-                    </LocalAccount>
-                </LocalAccounts>
             </UserAccounts>
             <FirstLogonCommands>
                 <SynchronousCommand wcm:action="add">
